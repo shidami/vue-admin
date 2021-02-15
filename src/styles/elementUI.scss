@@ -1,0 +1,180 @@
+.el-menu{
+    background-color: transparent!important;
+    border: none!important;
+    .el-submenu__title, .el-menu-item{
+      color: #fff!important;
+    }
+    .el-menu-item{
+      font-size: 10px!important;
+    }
+  }
+
+.el-submenu.is-active .el-submenu__title{
+    background-color: #F56C6C;
+}
+
+.el-menu-item.is-active{
+    background-color: #5B5061;
+}
+
+.el-menu.el-menu--popup.el-menu--popup-right-start{
+  background-color:#344A5F!important;
+  padding: 0!important;
+  min-width: 90px;
+}
+//info-list
+#info_list .el-form-item__label {
+  text-align: left;
+  padding: 0;
+}
+#info_list .el-form-item__content{
+  margin-left: 50px!important;
+  >.el-select{
+    width: 120px;
+  }
+}
+#info_list>.el-form>.el-form-item {
+  margin-bottom: 22px;
+  float: left;
+  margin-left: 35px;
+  &:nth-child(3){
+    .el-select{
+      width: 70px!important;
+    }
+    .el-form-item__content{
+      margin-left: 64px!important;
+    }
+  }
+  &:first-child{
+    margin-left: 0!important;
+
+  }
+}
+.el-date-editor--datetimerange.el-input__inner{
+  width: 220px!important;
+}
+.el-range-editor.el-input__inner{
+  padding:0 10px!important; 
+}
+.el-date-editor .el-range-separator{
+  line-height: 38px!important;
+  width: 15%!important;
+}
+.input_search{
+  width: 245px;
+  margin-left: 20px;
+  >.el-input{
+    width: 160px!important;
+  }
+}
+//info-table
+.el-table thead {
+  color: #333333!important;
+}
+.el-table--border{
+  margin-bottom: 22px;
+}
+//info-bottom
+.bottom_content{
+  .el-pagination{
+    float: right;
+    padding: 0!important
+  }
+}
+
+//info-category
+.edit_category>.el-form{
+  margin-top: 20px;
+  .el-form-item__label{
+    width: 135px!important;
+  }
+  .el-form-item__content{
+    margin-left: 135px!important;
+    width: 40%!important;
+  }
+}
+.edit_category button{
+  margin-left: 135px;
+}
+
+//addinfo_dialog
+.addinfo_dialog{
+  .el-dialog{
+    width: 37%!important;
+  }
+  .el-dialog__header{
+    padding: 30px 30px 10px!important;
+  }
+  .el-dialog__body{
+    padding: 30px 40px 10px!important;
+  }
+  .el-textarea__inner{
+    min-height: 144px!important;
+    padding: 8px 15px!important;
+  }
+  .el-dialog__footer{
+    text-align: center!important;
+    padding: 10px 20px 50px!important;
+    button{
+      width: 27%!important;
+    }
+    .el-button+.el-button{
+      margin-left: 20px!important;
+    }
+  }
+}
+
+//messageBox
+.el-message-box__wrapper{
+  .el-button--primary {
+    background-color: #F56C6C!important;
+    border-color: #F56C6C!important;
+  }
+}
+
+//info-details
+.info_details{
+  .el-form-item{
+    margin-bottom: 35px;
+  }
+  .new_title{
+    width: 40%;
+  }
+  .info_category{
+    width: 10%;
+  }
+  .el-image{
+    box-sizing: border-box;
+    width: 200px;
+    height: 200px;
+  }
+  .short_image{
+    .el-form-item__content{
+      line-height: 0px;
+    }
+  }
+  .ql-toolbar.ql-snow{
+    padding: 0;
+    line-height: 0px;
+  }
+  .ql-container{
+    height: 200px;
+  }
+  .save{
+    margin-left: 110px;
+  }
+}
+.avatar-uploader .el-upload {
+  border: 1px dashed #c7c2c2;
+  border-radius: 6px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+//addUser_dialog
+.addUser_dialog{
+  .el-dialog__body{
+      padding-bottom: 0!important;
+  }
+}

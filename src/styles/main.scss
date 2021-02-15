@@ -1,0 +1,21 @@
+@import "./normalize.scss";
+@import "./elementUI.scss";
+@import "./config.scss";
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+.move_left{
+    float: left;
+}
+
+.move_right{
+    float: right;
+}
+
+.top_icon{
+    width: 40px!important;
+    height: 40px!important;
+}

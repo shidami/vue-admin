@@ -1,0 +1,12 @@
+$navWidth: 260px;
+$red:#F56C6C;
+$height: 75px;
+$strechWidth: 65px;
+
+@mixin webkit( $style, $value) {
+    -webkit-#{$style}: $value;
+    -moz-#{$style}: $value;
+    -o-#{$style}: $value;
+    -ms-#{$style}: $value;
+    #{$style}: $value;
+}
